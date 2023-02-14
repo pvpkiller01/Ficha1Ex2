@@ -22,8 +22,8 @@ public class BankTest {
     @Test
     void testCreditApproval(){
         Client client = new Client ("Pedro", 18, 0, 0);
-        Loan loan= new Loan();
-        assertTrue(loan.assess(client));
+
+        assertTrue(Loan.assess(client));
     }
 
 }

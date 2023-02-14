@@ -6,7 +6,7 @@ public class Loan {
 
     private static double child = 0.30;
 
-    public boolean assess (Client client){
+    public static boolean assess (Client client){
         double risk=0;
         if(client.getAge()>=18){
             risk+=age;
